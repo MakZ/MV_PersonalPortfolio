@@ -92,9 +92,8 @@ padding-bottom:30px;
     width:100%;
     height:100px;
     background:darkslategray;
-    display:flex;
-    justify-content: flex-end;
-    flex-direction: column;
+display:flex;
+flex-direction: column;
 }
 
 .project-tile {
