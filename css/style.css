@@ -97,7 +97,7 @@ flex-direction: column;
 }
 
 .project-tile {
-    width:25%;
+    width:300px;
     height:300px;
     background-color:silver;
     margin:12px;
@@ -109,6 +109,33 @@ flex-direction: column;
 
 @media screen and (max-width: 400px){
   #welcome-section{
-    background: blue;
+    background: #6b6b6b;
   }
+}
+
+#contact h2 {
+    padding:20px;
+}
+#contact {
+    padding:20px;
+}
+
+.img {
+    height: 200px;        
+    background-size: cover;
+    background:url("https://via.placeholder.com/300");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.title {
+    justify-content: center;
+}
+
+.github {
+    display: flex;
+    flex-direction: column;
+}
+
+.github-img {
+padding:25px;
 }
